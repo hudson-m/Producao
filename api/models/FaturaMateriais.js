@@ -19,9 +19,9 @@ module.exports = {
 
     CodigoMedidaUnidade: { type: 'string' },
 
-    DataInicio: { type: 'string', columnType: 'datetime' },
+    DataInicio: { type: 'string', columnType: 'date' },
 
-    DataFim: { type: 'string', columnType: 'datetime' },
+    DataFim: { type: 'string', columnType: 'date' },
 
     LevelBOM: { type: 'string' }
 

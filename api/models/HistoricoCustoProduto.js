@@ -15,9 +15,9 @@ module.exports = {
 
     ProdutoID: {model: 'Produto'},
 
-    DataInicio: { type: 'string', columnType: 'datetime' },
+    DataInicio: { type: 'string', columnType: 'date' },
 
-    DataFim: { type: 'string', columnType: 'datetime' },
+    DataFim: { type: 'string', columnType: 'date' },
 
     CustoPadrao: { type: 'number' }
 

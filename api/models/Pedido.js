@@ -23,11 +23,11 @@ module.exports = {
 
     QuantidadeSucateada: { type: 'number' },
 
-    DataInicio: { type: 'string', columnType: 'datetime' },
+    DataInicio: { type: 'string', columnType: 'date' },
 
-    DataFim: { type: 'string', columnType: 'datetime' },
+    DataFim: { type: 'string', columnType: 'date' },
 
-    Prazo: { type: 'string', columnType: 'datetime' }
+    Prazo: { type: 'string', columnType: 'date' }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗

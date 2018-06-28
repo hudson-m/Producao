@@ -19,7 +19,7 @@ module.exports = {
 
     ReferenciaLinhaPedidoID: { type: 'number' },
 
-    DataTransacao: { type: 'string', columnType: 'datetime' },
+    DataTransacao: { type: 'string', columnType: 'date' },
 
     TipoTransacao: { type: 'string' },
 
