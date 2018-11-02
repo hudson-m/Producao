@@ -26,16 +26,16 @@ Note:  Generators are usually run using the globally-installed `sails` CLI (comm
 -->
 
 
-  *Rotas Publicas*
-  'GET localhost:1337/historicotransacoes/ordens/:tipo'
-  'GET localhost:1337/produto/bandeira/:bandeira'
-  'GET localhost:1337/historicotransacoes/ordens/'
-  'GET localhost:1337/local/list/:local'
-  'GET localhost:1337/faturaMateriais/'
-  'GET localhost:1337/motivoSucata/'
-
-  *Rotas Privadas*
-  'POST localhost:1337/motivoSucata/:motivo'
-  'POST localhost:1337/local/:local/'
-  'DELETE localhost:1337/local/:local/'
-  'DELETE localhost:1337/motivoSucata/:Idmotivo'
+  <b>*Rotas Publicas*</b><br>
+  'GET localhost:1337/historicotransacoes/ordens/:tipo'<br>
+  'GET localhost:1337/produto/bandeira/:bandeira'<br>
+  'GET localhost:1337/historicotransacoes/ordens/'<br>
+  'GET localhost:1337/local/list/:local'<br>
+  'GET localhost:1337/faturaMateriais/'<br>
+  'GET localhost:1337/motivoSucata/'<br>
+<br>
+  <b>*Rotas Privadas*</b><br>
+  'POST localhost:1337/motivoSucata/:motivo'<br>
+  'POST localhost:1337/local/:local/'<br>
+  'DELETE localhost:1337/local/:local/'<br>
+  'DELETE localhost:1337/motivoSucata/:Idmotivo'<br>
